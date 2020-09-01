@@ -1,0 +1,11 @@
+In revision B1
+=========
+1. Cleared up the text on the schematics
+
+2. C30(4.7pF/50V/±0.1pF/COG/C0402(Murata_Electronics/GRM1555C1H4R7BA01D)) cahanged to C30(2.4nH/±0.1nH/220mA/300mR/L0402(Murata_Electronics/LQP15MN2N4B02D)) and L5(2.4nH/±0.1nH/220mA/300mR/L0402(Murata_Electronics/LQP15MN2N4B02D)) changed to L5(4.7pF/50V/±0.1pF/COG/C0402(Murata_Electronics/GRM1555C1H4R7BA01D)). Meaning that C30 and L5 values and positions were swapped! The symbols are still not corrected in the schematic!!!
+
+3. EXT1 and EXT2 were changed from NA(HN1x16) to NS(HN1x16).
+
+4. The crypto device, i.e. U6 and its capacitor C40 are changed to NA! Not placed.
+
+5. The PIC's RTC crystal changed from Q32.768KHz/12.5pF/20ppm/4P/SMD_8038 to Q32.768KHz/12.5pF/20ppm/2P/SMD_1206. The capacitors C15 and C16 remained 33pF/50V/5%/COG/C0402, i.e. unchanged! Note that the package is still not updated to the real 1206 package!!!
